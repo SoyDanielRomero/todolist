@@ -3,8 +3,8 @@ function Todo({ todo, index, remove }) {
 		remove(index);
 	}
 	return (
-		<div className='todo' onClick={removeItem}>
-			{todo.text} (-)
+		<div className='todo'>
+			{todo.text} <span onClick={removeItem}>(-)</span>
 		</div>
 	);
 }

@@ -54,3 +54,6 @@ input::placeholder {
 	font-family: 'Cascadia Code';
 	color: #06f;
 }
+span {
+	cursor: pointer;
+}
